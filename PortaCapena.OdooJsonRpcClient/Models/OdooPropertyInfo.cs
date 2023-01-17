@@ -109,6 +109,7 @@ namespace PortaCapena.OdooJsonRpcClient.Models
                 case "selection":
                     return OdooValueTypeEnum.Selection;
                 case "text":
+                case "json":
                     return OdooValueTypeEnum.Text;
                 case "html":
                     return OdooValueTypeEnum.Html;
